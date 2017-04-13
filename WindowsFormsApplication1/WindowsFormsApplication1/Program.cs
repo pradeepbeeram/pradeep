@@ -14,7 +14,7 @@ namespace WindowsFormsApplication1
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
+            Application.EnableVisualStyles();//for testing we just modified
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FilterSelection());
         }
