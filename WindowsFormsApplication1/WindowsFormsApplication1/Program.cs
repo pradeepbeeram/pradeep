@@ -16,7 +16,7 @@ namespace WindowsFormsApplication1
         {
             Application.EnableVisualStyles();//for testing we just modified
             Application.SetCompatibleTextRenderingDefault(false);// made by pradeep
-            Application.Run(new FilterSelection());
+            Application.Run(new FilterSelection());beeram
         }
     }
 }
